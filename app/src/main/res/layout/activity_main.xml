@@ -42,7 +42,8 @@
             <com.google.android.material.textfield.TextInputLayout
                 style="?attr/textInputFilledStyle"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
                 android:background="#fff"
                 android:paddingStart="-15dp"
                 android:hint="Account Number*"
@@ -50,19 +51,21 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/acnum"
-                    android:inputType="number"
-                    android:textSize="18dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#fff"
-                    android:textColor="@color/primary"/>
+                    android:inputType="number"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary"
+                    android:background="#fff"/>
             </com.google.android.material.textfield.TextInputLayout>
+
 
             <!-- Customer ID -->
             <com.google.android.material.textfield.TextInputLayout
                 style="?attr/textInputFilledStyle"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
                 android:layout_marginTop="20dp"
                 android:background="#fff"
                 android:paddingStart="-15dp"
@@ -82,11 +85,13 @@
             <com.google.android.material.textfield.TextInputLayout
                 style="?attr/textInputFilledStyle"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
                 android:layout_marginTop="20dp"
                 android:background="#fff"
                 android:paddingStart="-15dp"
                 android:hint="Date of Birth*"
+                app:endIconDrawable="@drawable/ic_calendar"
                 android:textColorHint="@color/primary">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -97,16 +102,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#fff"
-                    android:textColor="@color/primary"
-                    android:focusable="false"
-                    android:clickable="true"/>
+                    android:textColor="@color/primary"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Mobile Number -->
             <com.google.android.material.textfield.TextInputLayout
                 style="?attr/textInputFilledStyle"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
                 android:layout_marginTop="20dp"
                 android:background="#fff"
                 android:paddingStart="-15dp"
@@ -123,7 +127,7 @@
                     android:background="#fff"
                     android:textColor="@color/primary"
                     android:inputType="number"
-                    android:maxLength="13"/>
+                    android:maxLength="10"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <LinearLayout

@@ -72,6 +72,7 @@
 
         <!-- Action Button -->
         <com.google.android.material.button.MaterialButton
+            android:onClick="GoToHome"
             android:layout_marginTop="32dp"
             android:layout_width="180dp"
             android:layout_height="56dp"

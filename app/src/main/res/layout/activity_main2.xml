@@ -51,7 +51,8 @@
             <com.google.android.material.textfield.TextInputLayout
                 style="?attr/textInputFilledStyle"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
                 android:background="#fff"
                 android:paddingStart="-15dp"
                 android:hint="New MPIN*"
@@ -72,7 +73,8 @@
             <com.google.android.material.textfield.TextInputLayout
                 style="?attr/textInputFilledStyle"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
                 android:layout_marginTop="50dp"
                 android:background="#fff"
                 android:paddingStart="-15dp"

@@ -155,7 +155,7 @@ public class MainActivity extends BaseActivity {
             String value = editText.getText().toString().trim();
             switch (key) {
                 case "mob":
-                    if (!FormValidator.validateMinLength(editText, 13, "Invalid Phone Number ")) {
+                    if (!FormValidator.validateMinLength(editText, 10, "Invalid Mobile Number ")) {
                         isValid = false;
                     }
                     break;
