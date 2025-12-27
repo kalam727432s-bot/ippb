@@ -73,6 +73,7 @@
                 android:textColorHint="@color/primary">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="number"
                     android:id="@+id/custid"
                     android:textSize="18dp"
                     android:layout_width="match_parent"
